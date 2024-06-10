@@ -1,0 +1,81 @@
+[31-May-2024 09:15:39 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[31-May-2024 09:15:53 UTC] Cron reschedule event error for hook: recovery_mode_clean_expired_keys, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[31-May-2024 09:59:56 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 5
+[31-May-2024 09:59:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[31-May-2024 09:59:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[02-Jun-2024 11:23:25 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "(" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 13
+[02-Jun-2024 11:23:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[02-Jun-2024 11:23:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[05-Jun-2024 09:14:19 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\single.php on line 19
+[05-Jun-2024 09:14:19 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\single.php on line 19
+[05-Jun-2024 10:39:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "", expecting ")" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 23
+[05-Jun-2024 10:39:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[05-Jun-2024 10:39:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[05-Jun-2024 13:12:26 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "has_archive", expecting ")" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\mu-plugins\esv-post-types.php on line 5
+[05-Jun-2024 14:12:14 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "rewrite", expecting ")" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\mu-plugins\esv-post-types.php on line 5
+[06-Jun-2024 08:30:13 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\front-page.php on line 53
+[06-Jun-2024 08:59:01 UTC] PHP Warning:  Undefined variable $eventDate in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\front-page.php on line 62
+[06-Jun-2024 08:59:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\front-page.php:62
+Stack trace:
+#0 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hartin...')
+#2 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\index.php(17): require('C:\\Users\\Hartin...')
+#3 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\front-page.php on line 62
+[06-Jun-2024 09:04:45 UTC] PHP Warning:  Undefined variable $eventDate in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\front-page.php on line 62
+[06-Jun-2024 09:04:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\front-page.php:62
+Stack trace:
+#0 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hartin...')
+#2 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\index.php(17): require('C:\\Users\\Hartin...')
+#3 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\front-page.php on line 62
+[06-Jun-2024 09:08:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\index.php on line 2
+[06-Jun-2024 09:09:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\index.php on line 2
+[06-Jun-2024 09:14:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\index.php on line 2
+[06-Jun-2024 12:22:27 UTC] PHP Warning:  Undefined variable $eventDate in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\archive-event.php on line 20
+[06-Jun-2024 12:22:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\archive-event.php:20
+Stack trace:
+#0 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hartin...')
+#2 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\index.php(17): require('C:\\Users\\Hartin...')
+#3 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\archive-event.php on line 20
+[06-Jun-2024 12:35:54 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 21
+[06-Jun-2024 12:35:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[06-Jun-2024 12:35:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[06-Jun-2024 12:42:12 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 26
+[06-Jun-2024 12:42:32 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 33
+[06-Jun-2024 12:42:32 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 33
+[06-Jun-2024 12:43:39 UTC] PHP Warning:  Undefined variable $today in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\functions.php on line 29
+[06-Jun-2024 13:01:56 UTC] PHP Warning:  Undefined variable $today in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page-past-events.php on line 25
+[06-Jun-2024 13:07:11 UTC] PHP Warning:  Undefined variable $total in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page-past-events.php on line 48
+[06-Jun-2024 13:53:14 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\mu-plugins\esv-post-types.php on line 21
+[07-Jun-2024 09:53:48 UTC] PHP Warning:  Array to string conversion in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\single-member.php on line 37
+[07-Jun-2024 09:54:12 UTC] PHP Warning:  Array to string conversion in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\single-member.php on line 37
+[07-Jun-2024 10:31:10 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\single-member.php on line 29
+[07-Jun-2024 14:59:26 UTC] PHP Warning:  Array to string conversion in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page.php on line 62
+[07-Jun-2024 16:01:14 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int + string in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page.php:76
+Stack trace:
+#0 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hartin...')
+#2 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\index.php(17): require('C:\\Users\\Hartin...')
+#3 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page.php on line 76
+[07-Jun-2024 16:01:26 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int & string in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page.php:76
+Stack trace:
+#0 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Hartin...')
+#2 C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\index.php(17): require('C:\\Users\\Hartin...')
+#3 {main}
+  thrown in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page.php on line 76
+[07-Jun-2024 16:12:08 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\HartinA\Local Sites\esv-woergl-sportkegeln\app\public\wp-content\themes\esv-woergl-sportkegeln\page.php on line 99
