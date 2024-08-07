@@ -1,15 +1,10 @@
 <?php 
     get_header(); 
+    pageBanner(array(
+      'title' => 'Willkommen auf unserer Homepage',
+      'subtitle' => 'Hier findest du alle Informationen über unseren Verein'
+    ));
 ?>
-    <div class="page-banner">
-            <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/esv-header-small.jpg') ?>)"></div>
-                <div class="page-banner__content container container--narrow">
-                    <h1 class="page-banner__title">Willkommen auf unserer Homepage</h1>
-                    <div class="page-banner__intro">
-                    <p>Hier findest du alle Informationen über unseren Verein</p>
-                </div>
-            </div>
-        </div>
 
     <div class="full-width-split group">
     <div class="full-width-split__one">
@@ -66,23 +61,9 @@
 
             while ($homepageEvents->have_posts()) {
                 $homepageEvents->the_post(); 
-                $eventDate = new DateTime(get_field('event_date'));
-                ?>
-                <div class="event-summary">
-                    <a class="event-summary__date t-center" href="<?php the_permalink(); ?>">
-                        <span class="event-summary__month"><?php echo $eventDate->format('M'); ?></span>
-                        <span class="event-summary__day"><?php echo $eventDate->format('d'); ?></span>
-                    </a>
-                    <div class="event-summary__content">
-                        <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                        <p><?php if (has_excerpt()) {
-                        echo get_the_excerpt();
-                    } else {
-                        echo wp_trim_words(get_the_content(), 18);
-                    } ?><a href="<?php the_permalink(); ?>" class="nu gray">Weiterlesen</a></p>
-                    </div>
-                </div>
-<?php       }
+                
+                get_template_part('template-parts/content', get_post_type());
+              }
             wp_reset_postdata();
 ?>
 
@@ -90,8 +71,28 @@
         </div>
         <br><hr><br>
         <div class="full-width-split__inner">
-          <h2 class="headline headline--small-plus t-center">Tabelle</h2>
-
+          <h2 class="headline headline--small-plus t-center">Tiroler Liga</h2>
+            <table class="league-table">
+              <tr>
+                <th>Mannschaft</th>
+                <th>SP</th>
+                <th>S</th>
+                <th>U</th>
+                <th>N</th>
+                <th>Punkte</th>
+              </tr>
+<?php         for ($index = 1; $index < 9; $index++) { ?>
+                <tr>
+                  <td>ESV Wörgl</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>4</td>
+                </tr>
+  <?php       } ?>
+            </table>
+          
           <!-- <div class="event-summary">
             <a class="event-summary__date t-center" href="#">
               <span class="event-summary__month">Mar</span>
@@ -111,9 +112,9 @@
               <h5 class="event-summary__title headline headline--tiny"><a href="#">Quad Picnic Party</a></h5>
               <p>Live music, a taco truck and more can found in our third annual quad picnic day. <a href="#" class="nu gray">Learn more</a></p>
             </div>
-          </div> 
+          </div> -->
 
-          <p class="t-center no-margin"><a href="#" class="btn btn--blue">View All Events</a></p>-->
+          <p class="t-center no-margin"><a href="#" class="btn btn--blue">Alle Tabellen</a></p>
         </div>
       </div>
     </div>

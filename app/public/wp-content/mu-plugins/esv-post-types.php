@@ -2,6 +2,8 @@
     function esv_post_types() {
         // Event Post Type
         register_post_type('Event', array(
+            'capability_type' => 'event',
+            'map_meta_cap' => true,
             'show_in_rest' => true,
             'supports' => array('title', 'editor', 'excerpt'),
             'rewrite' => array('slug' => 'events'),
@@ -20,8 +22,10 @@
 
         // Spieler Post Type
         register_post_type('Member', array(
+            'capability_type' => 'member',
+            'map_meta_cap' => true,
             'show_in_rest' => true,
-            'supports' => array('title'),
+            'supports' => array('title', 'editor', 'thumbnail'),
             'rewrite' => array('slug' => 'members'),
             'has_archive' => true,
             'public' => true,
@@ -38,6 +42,8 @@
 
         // Mannschaft Post Type
         register_post_type('Team', array(
+            'capability_type' => 'team',
+            'map_meta_cap' => true,
             'show_in_rest' => true,
             'supports' => array('title'),
             'rewrite' => array('slug' => 'teams'),
@@ -56,8 +62,11 @@
 
         // Liga Post Type
         register_post_type('League', array(
+            'capability_type' => 'league',
+            'map_meta_cap' => true,
             'show_in_rest' => true,
-            'supports' => array('title'),
+            'hierarchical' => true,
+            'supports' => array('title', 'page-attributes'),
             'rewrite' => array('slug' => 'leagues'),
             'has_archive' => true,
             'public' => true,
@@ -70,6 +79,25 @@
                 'add_new' => 'Add New League'
             ),
             'menu_icon' => 'dashicons-editor-table'
+        ));
+
+        // Note post type -> is to delete after change this function to custom homepage
+        register_post_type('note', array(
+            'capability_type' => 'note',
+            'map_meta_cap' => true,
+            'show_in_rest' => true,
+            'supports' => array('title', 'editor'),
+            'public' => false,
+            'show_ui' => true,
+            'labels' => array(
+                'name' => 'Notes',
+                'add_new_item' => 'Add New Note',
+                'edit_item' => 'Edit Note',
+                'all_items' => 'All Notes',
+                'singular_name' => 'Note',
+                'add_new' => 'Add New Note'
+            ),
+            'menu_icon' => 'dashicons-welcome-write-blog'
         ));
     }
     add_action('init', 'esv_post_types');
